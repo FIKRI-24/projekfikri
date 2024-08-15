@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Meta tag -->
+    <meta name="author" content="fikri arrahman" />
+    <meta name="description" content="fikri arrahman - Personal Portfolio Website Web Developer" />
+    <meta name="keywords" content="Software Engineer Portfolio Website" />
+    <!-- Favicon -->
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2b296c63cf.js" crossorigin="anonymous"></script>
+    <!-- Animate on scroll (AOS) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          table-layout: fixed;
+          margin-bottom: 20px;
+      }
+       
+      img {
+        
+          max-width: 15%;
+          height: auto;
+          border-radius: 5px;
+          margin-bottom: 40px; /* Add margin below the image to push the text down */
+          
+      }
+      .image-container {
+    max-width: 100%; /* Pastikan container tidak terlalu lebar */
+    margin: 0 auto;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 80%; /* Mengubah ukuran gambar di layar kecil */
+        height: auto;
+    }
+}
+
+
+      th, td {
+          border: 1px solid rgb(255, 255, 255);
+          padding: 8px;
+          text-align: left;
+      }
+
+      @media screen and (max-width: 600px) {
+          th, td {
+              display: block;
+              width: 100%;
+            
+          }
+      }
+    </style>
+</head>
+<body>
+    <!-- Start Header -->
+    <header class="parallax-window" data-parallax="scroll" data-image-src="images/header-bg.jpg">
+      <!-- Header left info -->
+      <div class="header-left-info" data-aos="fade-in" data-aos-delay="2000" data-aos-duration="1200" data-aos-offset="-400">
+        <p>E: irkif1011@gmail.com</p>
+        <p>T: +62 3877025898</p>
+      </div>
+
+      <!-- Header right info -->
+      <ul class="header-right-info" data-aos="fade-in" data-aos-delay="2000" data-aos-duration="1200">
+        <!-- Add relevant items here if needed -->
+      </ul>
+
+      <!-- Start Navigation -->
+      <nav>
+        <div class="logo" data-aos-delay="1400" data-aos="fade-in" data-aos-duration="800">
+          <a href="">Experience</a>
+        </div>
+        <ul class="nav-links">
+          <div class="nav-links-wrap">
+            <li data-aos="fade-down" data-aos-delay="1200" data-aos-duration="300">
+              <a href="index.html">Home</a>
+            </li>
+            <li data-aos="fade-down" data-aos-delay="1200" data-aos-duration="600">
+              <a href="about.html">About</a>
+            </li>
+            <li data-aos="fade-down" data-aos-delay="1200" data-aos-duration="600">
+              <a href="project.html">Project</a>
+            </li>
+            <li data-aos="fade-down" data-aos-delay="1200" data-aos-duration="900">
+              <a href="#experience">Experience</a>
+            </li>
+            <li data-aos="fade-down" data-aos-delay="1200" data-aos-duration="1200">
+              <a href="contact.html">Contact</a>
+            </li>
+          </div>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <script>
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        burger.addEventListener('click', () => {
+          navLinks.classList.toggle('nav-active');
+          burger.classList.toggle('active');
+        });
+      </script>
+      <!-- End Navigation -->
+
+      <!-- Start Hero -->
+      <section id="hero" class="container">
+        <h1 class="hero-title" data-aos="fade-in" data-aos-delay="300" data-aos-duration="1000">
+          <span></span>
+          
+        </h1>
+        <h2 data-aos="fade-in" data-aos-delay="500" data-aos-duration="1900">
+          <a href="" class="typewrite" data-period="10" data-type='[
+            "Crafting elegant solutions to complex problems with a focus on user experience.",
+            "Bringing ideas to life with a relentless drive for innovation and excellence.",
+            "Building beautiful and functional web experiences with passion."
+          ]'>
+            <span class="wrap"></span>
+          </a>
+        </h2>
+      </section>
+    </header>
+    <main>
+      <!-- Start About -->
+      <section id="about">
+        <h1 class="section-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
+          <center>Pengalaman Saya</center>
+        </h1>
+        <div class="about-wrap" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
+          <center>
+            
+            <table class="flex-container">
+              <tr>
+                <th>Pengalaman</th>
+                <th>Keterampilan</th>
+              </tr>
+              <tr>
+                <td>Saya berpengalaman melakukan pekerjaan di bidang marketing dan penjualan suatu produk di sosial media, dan juga saya bisa menggunakan aplikasi web desain seperti Canva, Figma, Filmora, dan lain-lain.</td>
+                <td>HTML & CSS</td>
+              </tr>
+              <tr>
+                <td>Saya berpengalaman melakukan pekerjaan di bidang marketing dan penjualan suatu produk di sosial media, dan juga saya bisa menggunakan aplikasi web desain seperti Canva, Figma, Filmora, dan lain-lain.</td>
+                <td>JavaScript</td>
+              </tr>
+              <tr>
+                <td>Saya bisa menggunakan aplikasi edit seperti Adobe Photoshop dan juga Corel Draw.</td>
+                <td>PHP</td>
+              </tr>
+              <tr>
+                <td>Kali ini saya magang di perusahaan di bidang software, guna untuk memperdalam ilmu pengembangan website saya.</td>
+                <td>Desain UI/UX</td>
+              </tr>
+            </table>
+          </center>
+        </div>
+      </section>
+
+      <footer class="container">
+        <div class="footer-wrap" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
+          <a href="https://www.instagram.com/fikri_arrahman24?igsh=MWhtcGVpeDR3YjNpdg==" target="_blank" class="copyright">
+            Created <i class="fa fa-btn"></i> by Fikri Arrahman
+          </a>
+        </div>
+      </footer>
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="module">
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>

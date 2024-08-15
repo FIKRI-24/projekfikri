@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fikri</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Meta tag -->
+    <meta name="author" content="fikri arrahman" />
+    <meta name="description" content="fikri arrahman - Personal Portfolio Website Web Developer" />
+    <meta name="keywords" content="Software Engineer Portfolio Website" />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/2b296c63cf.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <!-- Animate on scroll (AOS) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <!-- Header left info -->
+      <div
+        class="header-left-info"
+        data-aos="fade-in"
+        data-aos-delay="2000"
+        data-aos-duration="1200"
+        data-aos-offset="-400"
+      >
+        <p>E : irkif1011@gmail.com</p>
+        <p>T : +62 3877025898</p>
+      </div>
+
+      <!-- Header right info -->
+      <ul
+        class="header-right-info"
+        data-aos="fade-in"
+        data-aos-delay="2000"
+        data-aos-duration="1200"
+      >
+        <!-- Add more items if needed -->
+      </ul>
+
+      <!-- Start Navigation -->
+      <nav>
+        <div
+          class="logo"
+          data-aos-delay="1400"
+          data-aos="fade-in"
+          data-aos-duration="800"
+        >
+          <a href="">fikri <span>arrahman</span></a>
+        </div>
+        
+        <ul class="nav-links">
+          <div class="nav-links-wrap">
+            <li
+              data-aos="fade-down"
+              data-aos-delay="1200"
+              data-aos-duration="300"
+            >
+              <a href="index.html">home</a>
+            </li>
+            <li
+              data-aos="fade-down"
+              data-aos-delay="1200"
+              data-aos-duration="600"
+            >
+              <a href="about.html">about</a>
+            </li>
+            <li
+              data-aos="fade-down"
+              data-aos-delay="1200"
+              data-aos-duration="600"
+            >
+              <a href="project.html">project</a>
+            </li>
+            <li
+              data-aos="fade-down"
+              data-aos-delay="1200"
+              data-aos-duration="900"
+            >
+              <a href="experience.html">experience</a>
+            </li>
+            <li
+              data-aos="fade-down"
+              data-aos-delay="1200"
+              data-aos-duration="1200"
+            >
+              <a href="contact.html">contact</a>
+            </li>
+          </div>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+      <script>
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+
+        burger.addEventListener('click', () => {
+          navLinks.classList.toggle('nav-active');
+          burger.classList.toggle('active');
+        });
+      </script>
+      <!-- End Navigation -->
+
+      <!-- Start Hero -->
+      <section id="hero" class="container">
+        <h1
+          class="hero-title"
+          data-aos="fade-in"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          Halo, nama saya <span>fikri arrahman</span>, saya tinggal di Padang, Indonesia.
+        </h1>
+        <h1
+          class="hero-title"
+          data-aos="fade-in"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          Hai, <span>selamat datang di portofolio saya</span>! Di sini kamu bisa menemukan berbagai proyek yang telah saya kerjakan selama menjadi mahasiswa.
+        </h1>
+        <h2 data-aos="fade-in" data-aos-delay="500" data-aos-duration="1900">
+          <a
+            href="#"
+            class="typewrite"
+            data-period="10"
+            data-type='[
+              "Menciptakan solusi elegan untuk masalah kompleks dengan fokus pada pengalaman pengguna.",
+              "Menghidupkan ide dengan semangat inovasi dan keunggulan.",
+              "Membangun pengalaman web yang indah dan fungsional dengan penuh gairah."
+            ]'
+          >
+            <span class="wrap"></span>
+          </a>
+        </h2>
+      </section>
+    </header>
+   
+    <footer class="container">
+      <div
+        class="footer-wrap"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1200"
+      >
+        <a
+          href="https://www.instagram.com/fikri_arrahman24"
+          target="_blank"
+          class="copyright"
+        >
+          created <i class="fa fa-btn"></i> by fikri arrahman
+        </a>
+      </div>
+    </footer>    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
